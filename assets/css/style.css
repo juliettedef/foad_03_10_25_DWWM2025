@@ -1,0 +1,457 @@
+@font-face {
+    font-family: "poppins";
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+
+:root {
+    --vert: #4CB050;
+    --rouge: #F34335;
+    --gray: #F1F1F1;
+    --width-mobile: 90%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+img, input {
+    vertical-align: bottom;
+    width: 100%;
+}
+
+ul, li, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+
+header .wrap > div {
+    width: 100vw;
+    text-align: center;
+}
+
+header .wrap a {
+    color: white;
+}
+
+header .download-btn {
+    background-color: var(--vert);
+    padding: 0.5rem;
+}
+
+header .take-tour-btn {
+    background-color: black;
+    padding: 0.3rem;
+}
+
+header .desktop {
+    display: none;
+}
+
+/* WHY */
+
+main .why {
+    width: var(--width-mobile);
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+
+main .why .why-title h2 {
+    font-size: 4rem;
+}
+
+main .why-title h3 {
+    color: var(--vert);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+main .why-title h2 span {
+    font-size: 2.5rem;
+    color: var(--vert);
+}
+
+main .why-text span {
+    font-size: 1.2rem;
+}
+
+main .why-text p {
+    font-size: 0.9rem;
+}
+
+main .available-apps {
+    margin: 1rem 0;
+}
+
+main .available-apps .fa-android {
+    color: #4CB050;
+}
+
+main .available-apps .fa-windows {
+    color: #2196F3;
+}
+
+main .download-link {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+main .why-img {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+/* WHO */
+
+main .who-img {
+    display: none;
+}
+
+main .who {
+    background-color: var(--gray);
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+main .who-content {
+    width: var(--width-mobile);
+    margin: 0 auto;
+}
+
+main .why-title {
+    font-size: 4rem;
+}
+
+main .who-title h3 {
+    color: var(--rouge);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+main .who .who-title h2 {
+    font-size: 4rem;
+}
+
+main .who-title h2 span {
+    font-size: 2.5rem;
+    color: var(--rouge);
+}
+
+main .who-text span {
+    font-size: 1.2rem;
+}
+
+main .who-text p {
+    font-size: 0.9rem;
+}
+
+/* FEATURES */
+
+.features {
+    background: #616161;
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.features h2 {
+    font-size: 3rem;
+}
+
+.features > p {
+    margin: 2rem 3rem;
+}
+
+.feature-grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+    text-align: center;
+}
+
+.feature i {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    display: block;
+    text-align: center;
+}
+
+/* PRICING */
+
+.pricing {
+    width: var(--width-mobile);
+    margin: 0 auto;
+}
+
+.pricing-title h2 {
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+.pricing-title {
+    text-align: center;
+}
+
+.pricing-title p {
+    margin: 1rem 0;
+    font-size: .9rem;
+}
+
+/* PRICING CARD */
+
+.basic-card {
+    text-align: center;
+    box-shadow: 5px 5px 10px 1px #878787;
+    margin: 3rem 0;
+}
+
+.basic-card h3 {
+    background-color: #616161;
+    padding: 1.5rem;
+    color: white;
+}
+
+.basic-card p {
+    border: 1px solid #EEE;
+    padding: .8rem;
+}
+
+.basic-card span {
+    font-weight: 800;
+}
+
+.basic-card .price {
+    font-size: 1.5rem;
+}
+
+.basic-card .download {
+    background-color: #F1F1F1;
+    padding: 1.5rem;
+}
+
+.basic-card .download a {
+    background-color: black;
+    color: white;
+    padding: .5rem 1rem;
+}
+
+.premium-card {
+    text-align: center;
+    box-shadow: 5px 5px 10px 1px #878787;
+    margin: 3rem 0;
+}
+
+.premium-card h3 {
+    background-color: #F54337;
+    padding: 1.5rem;
+    color: white;
+}
+
+.premium-card p {
+    border: 1px solid #EEE;
+    padding: .8rem;
+}
+
+.premium-card span {
+    font-weight: 800;
+}
+
+.premium-card .price {
+    font-size: 1.5rem;
+}
+
+.premium-card .download {
+    background-color: #F1F1F1;
+    padding: 1.5rem;
+}
+
+.premium-card .download a {
+    background-color: black;
+    color: white;
+    padding: .5rem 1rem;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #F1F1F1;
+    padding: 4rem;
+}
+
+footer .socials {
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 576px) {
+
+    /* HEADER */
+    header .wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+        background-image: url("../img/app.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    header .img-header img {
+        display: none;
+    }
+
+    header .separateur {
+        border: 1px solid gray;
+        width: 90%;
+        margin: 1rem 0;
+    }
+
+    header .download-btn {
+        background-color: black;
+        opacity: 60%;
+        color: white;
+        max-width: 28rem;
+        border-radius: 10px;
+        padding: 2rem 0;
+        gap: 1rem;
+        margin: 0 2rem;
+    }
+
+    header .desktop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .download-btn p {
+        margin-bottom: 2rem;
+    }
+
+    header .download-btn a {
+        background-color: var(--vert);
+        padding: 1rem 8rem;
+        border-radius: 10px;
+    }
+
+    header .take-tour-btn {
+        padding: 1rem;
+        max-width: 15%;
+        border-radius: 5px;
+        margin-right: 2rem;
+    }
+
+    /* WHY */
+    main .why {
+        display: flex;
+    }
+
+    main .why-img {
+        width: 100%;
+    }
+
+    main .why .left {
+        width: 70%;
+    }
+
+    main .why .right {
+        width: 30%;
+        margin-left: 5rem;
+    }
+
+    main .why .bottom-left {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    main .why .download-link {
+        width: 40%;
+        background-color: #F1F1F1;
+        padding: 1rem;
+    }
+
+    main .why-text span {
+        font-size: 1.5rem;
+    }
+
+    main .why-text {
+        font-size: 1.2rem;
+    }
+
+    /* WHO */
+    main .who {
+        display: flex;
+    }
+
+    main .who-img {
+        display: flex;
+    }
+
+    main .who-img {
+        width: 100%;
+    }
+
+    main .who .left {
+        width: 30%;
+    }
+
+    main .who .right {
+        width: 70%;
+    }
+
+    main .who-text {
+        font-size: 1.2rem;
+    }
+
+    /* FEATURE */
+    .features .mobile {
+        display: none;
+    }
+
+    .features .feature {
+        padding: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .features h2 {
+        font-size: 3rem;
+    }
+
+    /* PRICE */
+    main .pricing .cards {
+        display: flex;
+        gap: 1rem;
+    }
+
+    main .pricing .cards > div {
+        flex: 1;
+    }
+
+}
